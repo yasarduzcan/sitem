@@ -1,0 +1,91 @@
+/* Genel yapı */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+/* Butonlar */
+.buy {
+    background-color: #ff6b6b;
+}
+
+.buy:hover {
+    background-color: #ff5252;
+}
+
+.free-test {
+    background-color: #1dd1a1;
+}
+
+.free-test:hover {
+    background-color: #10ac84;
+}
+
+.tests {
+    background-color: #54a0ff;
+}
+
+.tests:hover {
+    background-color: #2e86de;
+}
+
+.send-question {
+    background-color: #feca57;
+}
+
+.send-question:hover {
+    background-color: #ff9f43;
+}
+
+.educational-games {
+    background-color: #5f27cd;
+}
+
+.educational-games:hover {
+    background-color: #341f97;
+}
